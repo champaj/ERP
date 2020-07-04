@@ -1,0 +1,511 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Admin &mdash; ERP 0.01 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Business Management" href="bm.html" />
+    <link rel="prev" title="ERP’s HOME" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ERP
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Admin</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#manage-user">Manage user</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#edit-user-profile">Edit User Profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-payroll-for-user">Edit Payroll for user</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-designation-for-user">Edit Designation For User</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-permission-for-user">Edit Permission For User</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-master-data-for-user">Edit master Data For User</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-chat-with-user">How to chat with User</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#view-user-profile">View User Profile</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#settings">Settings</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#modules-and-applications">Modules And Applications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#blog-settings">Blog Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#calendar-admin">Calendar(admin)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#client-relationships-settings">Client Relationships settings</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#disbursal">Disbursal</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bm.html">Business Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pm.html">Project Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wfm.html">Workforce Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Quick Guide</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ERP</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Admin</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="admin">
+<h1>Admin<a class="headerlink" href="#admin" title="Permalink to this headline">¶</a></h1>
+<div class="figure align-center" id="id1">
+<img alt="_images/admin.png" src="_images/admin.png" />
+<p class="caption"><span class="caption-text">Admin Home.</span></p>
+</div>
+<p>In this tab you can see the graphical representation of <strong>Average Expense Per Project, Average Revenue Per Project, Employee Tenure, Employee Growth, Expenses</strong>.</p>
+<div class="section" id="manage-user">
+<h2>Manage user<a class="headerlink" href="#manage-user" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id2">
+<span id="a"></span><img alt="_images/admnguser.png" src="_images/admnguser.png" />
+<p class="caption"><span class="caption-text">Manage Users</span></p>
+</div>
+<p>Above image is giving you a overview of admin portal. here admin is getting the access to manage <em>user, setting and Disbursal</em>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on <strong>Search</strong> field to search the user profile (by username).</li>
+<li>Click on <strong>New+</strong> button to create a new user. you will see a form like below, fill the details accordingly and click on <strong>save</strong> button and user will be created. you can see them in Admin &gt; manage Users.</li>
+</ul>
+</div></blockquote>
+<div class="section" id="edit-user-profile">
+<h3>Edit User Profile<a class="headerlink" href="#edit-user-profile" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id3">
+<span id="b"></span><img alt="_images/editprofforuser1.png" src="_images/editprofforuser1.png" />
+<p class="caption"><span class="caption-text">Editing user profile.</span></p>
+</div>
+<p>Click on the pencil icon of that user whom account you want to edit. There is server details about the user in which most of them can be mange by the Admin, let’s see in the above image.</p>
+<blockquote>
+<div><ul class="simple">
+<li>In the above [portal admin can change the user’s <strong>Employee Id, Employment Type, Prefix, Gender, Marital status, Date of Birth, Local Address, Permanent Address, Blood Group, Mobile, Email, Emergency Contact Name and Emergency Contact Number</strong> too.</li>
+<li>And after updating (changing) the details click on <strong>Save</strong> button to save the changes. then</li>
+<li>Click on <strong>Next</strong> button to save and manage the further details.</li>
+</ul>
+<div class="figure align-center">
+<img alt="_images/editprofforuser2.png" src="_images/editprofforuser2.png" />
+</div>
+</div></blockquote>
+<p>In the above portal edit user’s <strong>Doctorate University, Father’s Name, Mother’s Name and Notes</strong> then click on <strong>Save</strong> and then on <strong>Next</strong> button. then you will see the below tab</p>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="_images/editprofforuser3.png" src="_images/editprofforuser3.png" />
+</div>
+</div></blockquote>
+<dl class="docutils">
+<dt>Here you can manage users files like <strong>Display Picture, TNC and Bond, Resume, Certificates, Transcripts, Other Docs, Aadhar Card, Aadhar Card, Vehicle Registration, Appointment Acceptance, PAN</strong> etc.</dt>
+<dd><ul class="first last simple">
+<li>Then click on <strong>Save</strong> button and changed details will be updated.</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="edit-payroll-for-user">
+<h3>Edit Payroll for user<a class="headerlink" href="#edit-payroll-for-user" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id4">
+<span id="c"></span><img alt="_images/editpayrollforuser.png" src="_images/editpayrollforuser.png" />
+<p class="caption"><span class="caption-text">Edit Payroll</span></p>
+</div>
+<div class="figure align-center">
+<img alt="_images/editpayrollforuser1.png" src="_images/editpayrollforuser1.png" />
+</div>
+<p>Click on <strong>Card icon</strong> to edit the payroll for That user then you will see the above tab.</p>
+<blockquote>
+<div><ul class="simple">
+<li>where Admin can manage many details like <strong>HRA (House Rent Allowance), Special Allowance, LTA(Leave Travel Allowance), Basic, Tax Slab, AdHOC and Medical insurance details, Leaves, Joining Date, Last Working Date, either Saturday Off or Not, Bank Details</strong> etc.</li>
+<li>The click on <strong>Save</strong> button to save all the changes.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="edit-designation-for-user">
+<h3>Edit Designation For User<a class="headerlink" href="#edit-designation-for-user" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center" id="id5">
+<span id="d"></span><img alt="_images/editdesignationforuser.png" src="_images/editdesignationforuser.png" />
+<p class="caption"><span class="caption-text">Edit Designation and KRA</span></p>
+</div>
+</div></blockquote>
+<p>In above tab admin can manage the user’s <strong>designation</strong> and <strong>KRA(Key result area)</strong>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Here admin can manage several details related to user’s designation like <strong>Reporting To, HR Partner, Primary Approver, Secondary Approver, Division, Unit, Department, Roles</strong> and then click on save button it will save all the changes done in this tab.</li>
+<li>Admin can also manage the KRA(Key result area)  of that user by <strong>KRA name, target and Period</strong> and click on <strong>save KRA</strong> button to save.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="edit-permission-for-user">
+<h3>Edit Permission For User<a class="headerlink" href="#edit-permission-for-user" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center" id="id6">
+<span id="e"></span><img alt="_images/editpermissionforuser.png" src="_images/editpermissionforuser.png" />
+<p class="caption"><span class="caption-text">Edit Permission</span></p>
+</div>
+</div></blockquote>
+<p>Editing Permission for any user is very simple just search their profile by their name and then click on <strong>Key</strong> icon button and you will see the above tab here</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the <strong>search</strong> field and type the name of that <strong>area(module)</strong> which you to allow for that user it will be appear then select and save.</li>
+<li>Like this that user will be able to access that area for example in the above tab user(Riya) has access for only one module that is showing in <strong>Grant application access</strong></li>
+<li>If you(admin) want to deny that access area for that user just click on <strong>x</strong> icon of that area and that module will be disappear from that user portal.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="edit-master-data-for-user">
+<span id="g"></span><h3>Edit master Data For User<a class="headerlink" href="#edit-master-data-for-user" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center" id="id7">
+<img alt="_images/editpermissionforuser.png" src="_images/editpermissionforuser.png" />
+<p class="caption"><span class="caption-text">Edit Master Data</span></p>
+</div>
+</div></blockquote>
+<p>To Edit the Master data for any user click on the <strong>Lock</strong> icon appear on that user profile as you had done for <em>Edit Permission</em> then you will see the above  tab</p>
+<blockquote>
+<div><ul class="simple">
+<li>There you can change the User’s <strong>First Name, Last Name, Password</strong> and in the right side There is two checkbox one is for <strong>Active</strong> and another is for <strong>Staff</strong> if that user is <em>Active</em> then this checkbox will be checked by itself or you can make it check to make active that user</li>
+<li>If that user is <strong>Staff</strong> then the staff labeled checkbox will be checked or you want to make that user staff click on this checkbox and make it checked.</li>
+<li>To Access any user’s account without knowing their password, admin can access that user account, for that admin has to search and select the user profile, click on lock icon then click on <strong>Generate Passkey</strong> passkey will be generated near label <strong>password</strong>, as you click on <strong>generate Passkey</strong> Button, it show a message <em>copied to clipboard</em> and Now just open a new tab in your browser and paste the copied link in the address bar now you will be logged in from that user account.</li>
+</ul>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The copied link will be like <code class="docutils literal notranslate"><span class="pre">https://domainname/tlogin//?token=BokOoXZxFdMjgXem2#&#64;t</span></code> .</p>
+</div>
+</div>
+<div class="section" id="how-to-chat-with-user">
+<span id="h"></span><h3>How to chat with User<a class="headerlink" href="#how-to-chat-with-user" title="Permalink to this headline">¶</a></h3>
+<p>To chat with user just search their profile by their name, then click on message icon, chat box will be open in the right side corner of the window and like this admin can message any user.</p>
+</div>
+<div class="section" id="view-user-profile">
+<span id="i"></span><h3>View User Profile<a class="headerlink" href="#view-user-profile" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center" id="id8">
+<img alt="_images/viewuser.png" src="_images/viewuser.png" />
+<p class="caption"><span class="caption-text">User Details</span></p>
+</div>
+</div></blockquote>
+<p>Go to <strong>Admin &gt; Manage User &gt;</strong> then Search and select User &gt; <strong>View profile</strong> then you will see above details about that user.</p>
+</div>
+</div>
+<div class="section" id="settings">
+<span id="j"></span><h2>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="figure align-center" id="id9">
+<img alt="_images/adsetting.png" src="_images/adsetting.png" />
+<p class="caption"><span class="caption-text">Settings on admin portal</span></p>
+</div>
+</div></blockquote>
+<p>From the above portal admin can manage most part of this website like <strong>Modules And Application, dashboard, Mail, Social, Blog, Calendar, Notes</strong> <em>and</em> <strong>Client relationships</strong>.</p>
+<div class="section" id="modules-and-applications">
+<span id="k"></span><h3>Modules And Applications<a class="headerlink" href="#modules-and-applications" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center" id="id10">
+<img alt="_images/moduleapp.png" src="_images/moduleapp.png" />
+<p class="caption"><span class="caption-text">Manage Modules and Applications.</span></p>
+</div>
+</div></blockquote>
+<p>In the above tab you can…</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Search</strong> module and application <em>by their name</em> in search bar.</li>
+<li>Click on that module to know <strong>(description)about</strong> them.</li>
+<li>Click on delete icon to <strong>delete</strong> that <em>module or application</em> and by clicking on yes give the confirmation to delete that module and application.</li>
+<li>You can add new field by clicking on <strong>New+</strong>.</li>
+<li>If you want to edit click on <strong>edit</strong> of that application.</li>
+</ul>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="_images/editsocial.png" src="_images/editsocial.png" />
+</div>
+</div></blockquote>
+</div></blockquote>
+<p>Here you can change the owner for that application</p>
+<blockquote>
+<div><ul class="simple">
+<li>You can <strong>search</strong> the created application(by name) in search bar.</li>
+<li>You can <strong>Delete</strong> and <strong>Edit</strong> that application field. if you click on edit you will see</li>
+</ul>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="_images/editsocialedit.png" src="_images/editsocialedit.png" />
+</div>
+</div></blockquote>
+</div></blockquote>
+<p>Here you can change the <strong>Description</strong> and <strong>Field Type</strong> of that field in application and click on <em>save icon</em> to <strong>save</strong> the changes.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>Above setting works for every modules and applications.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="blog-settings">
+<span id="l"></span><h3>Blog Settings<a class="headerlink" href="#blog-settings" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="_images/blogsetting.png" src="_images/blogsetting.png" />
+</div>
+</div></blockquote>
+<p>In the blog setting area you can configure your blog tab. like</p>
+<blockquote>
+<div><ul class="simple">
+<li>you can set <strong>Service Name, Tag Line, Copyright Name</strong>.</li>
+<li>You can also provide <strong>your Fb Link, Twitter Link, Linked In Link</strong> and your <strong>website URL</strong> too in your blog.</li>
+<li>You can set the <strong>heading1</strong> (first heading on the main page) and <strong>haeding2</strong> (second heading on the main page (shown in small font)).</li>
+<li>you can also show the  <strong>Articles Count</strong> (number of available articles as written in the search input).</li>
+<li>to show advertisement on your blog check the <strong>showAdvertisement ?</strong> checkbox and fill the <em>Advertisement U R L</em> and <em>Advertisement Image U R L</em>.</li>
+<li>To add a search field in your blog check the <strong>showSearchInHeader ?</strong> checkbox.</li>
+<li>you can also add new tag( search input on the header) just fill in <em>add a new tag section</em> and click on <strong>ADD</strong> button</li>
+<li>and click on <strong>save</strong> button and all the changed settings will be saved for Blog.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="calendar-admin">
+<h3>Calendar(admin)<a class="headerlink" href="#calendar-admin" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center" id="id11">
+<span id="m"></span><img alt="_images/crtholiday.png" src="_images/crtholiday.png" />
+<p class="caption"><span class="caption-text">Creating Holidays</span></p>
+</div>
+</div></blockquote>
+<p>In calendar setting you can <strong>Create holiday</strong> which will be shown in calendar as per date.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Fill the <strong>Name</strong> of holiday then</li>
+<li>select the <strong>type</strong> of holiday</li>
+<li>Set the <strong>date</strong> of that holiday and click on <strong>Create</strong> button</li>
+<li>and it will be appear in holiday list.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="client-relationships-settings">
+<span id="n"></span><h3>Client Relationships settings<a class="headerlink" href="#client-relationships-settings" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="_images/crsetting.png" src="_images/crsetting.png" />
+</div>
+</div></blockquote>
+<p>In this setting you can customize <strong>Tnc Quotation, Tnc Invoice, Company Name, Company Address, Contact Details, Bank Details</strong> and <strong>Regulatory Details</strong>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Just change and click on <strong>save</strong> button to save these changed settings.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="disbursal">
+<span id="o"></span><h2>Disbursal<a class="headerlink" href="#disbursal" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="figure align-center" id="id12">
+<img alt="_images/disbural.png" src="_images/disbural.png" />
+<p class="caption"><span class="caption-text">Disbursal History</span></p>
+</div>
+</div></blockquote>
+<p>To check the <strong>Disbursal</strong> go to <strong>Admin &gt; Disbursal</strong> then</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on toggle button to check the <strong>History</strong> and <strong>Pending</strong></li>
+<li>Here you can check <em>in which date?, for which purpose?, how much amount?</em> has been disbursed <em>to whom?,</em> and <em>in which account?</em></li>
+<li>And in Pending table you will get the same information about <strong>Disbursal</strong> but that disbursal is not approved by anyone that’s why those are in <strong>pending</strong>.</li>
+</ul>
+<blockquote>
+<div><div class="figure align-center" id="id13">
+<img alt="_images/disbursal1.png" src="_images/disbursal1.png" />
+<p class="caption"><span class="caption-text">Pending Disbursal</span></p>
+</div>
+</div></blockquote>
+</div></blockquote>
+<p>To proceed the disbursal go to <strong>Admin &gt; Disbursal &gt; Pending</strong> then</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>select</strong> the verified row which you have to disburse and Click on <strong>Done</strong>.</li>
+</ul>
+<blockquote>
+<div><div class="figure align-center" id="id14">
+<img alt="_images/disbursal2.png" src="_images/disbursal2.png" />
+<p class="caption"><span class="caption-text">Disbursal Process</span></p>
+</div>
+</div></blockquote>
+</div></blockquote>
+<p>In the above tab write the <strong>Disbursal note</strong> and select the <strong>Account</strong> from which it will be deducted and click on <strong>save</strong> button.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Then those list will be added in disbursal history.</li>
+<li>Theses lists are just an list in which it is mentioned that for what purpose? payment will be done from where?.</li>
+<li>In this table data comes from several part of this system like <strong>Advance pay, Loan, Vendor invoice</strong> and <strong>Salary Payslip</strong>.</li>
+<li>So any disbursal of company will be added in this list automatically.</li>
+<li>The done Disbursal, Pending and processed list can be downloaded from current tab by clicking on <strong>Download</strong> button.</li>
+<li>The downloaded data will be in excel sheet.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="bm.html" class="btn btn-neutral float-right" title="Business Management" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="ERP’s HOME" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
